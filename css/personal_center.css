@@ -1,0 +1,90 @@
+/*״̬��*/
+.statement{
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid #f7f7f7;
+    margin-top: 20px;
+}
+.statement .active{
+    color: #e16300;
+}
+.statement_two,.statement_one,.statement_three{
+    color: #AAAAAA;
+    cursor: pointer;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*���ﳵ*/
+.personnal,.user_address,.user_order{
+    border: 1px solid #ffd1c0;
+    margin-top: 20px;
+}
+.title{
+    text-align: center;
+    color: #ff561a;
+    font-size: 15px;
+    font-weight: bold;
+    height: 39px;
+    line-height: 44px;
+    overflow: hidden;
+}
+
+
+.main_details input{
+    margin-left:15px;
+}
+/*用户信息*/
+.personnal_inside{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.personnal_ul{
+
+}
+.personnal_li{
+    margin: 20px;
+}
+.personnal_btn{
+    background: #e16300;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+/*用户地址*/
+
+.user_address_li{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.new_user_address{
+    text-align: center;
+}
+.new_user_address>div{
+    margin: 15px;
+}
+.address_btn{
+    background: #e16300;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+.aid{
+    display: none;
+}
+
+/*订单信息*/
+.order_li{
+    display: flex;
+    justify-content: space-around;
+    line-height: 60px;
+    margin: 20px 0px;
+}

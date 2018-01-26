@@ -1,0 +1,73 @@
+/*轮播图*/
+.index_lunbo{
+    position: relative;
+}
+.lunbo_img{
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.lunbo_a{
+    opacity: 0;
+    transition: 1.5s;
+}
+.lunbo_a.active{
+    opacity: 1;
+    z-index: 10;
+}
+.index_lunbo>img{
+    width: 100%;
+}
+.lead_to{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.lead_to>a{
+    display: block;
+    width: 45%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.lead_to>a>img{
+    width: 100%;
+}
+
+
+/*广告大图*/
+.bgadvertise{
+    margin-top: 30px;
+}
+.bgpic{
+    width: 100%;
+}
+/*产品表*/
+.products{
+
+}
+.product_ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product_li{
+    width: 45%;
+    text-align: center;
+    margin-top: 10%;
+}
+.product_li>a:hover{
+    color: #ff2a53;
+}
+.product_title{
+    font-size: 1rem;
+}
+.product_pic{
+    width: 100%;
+}
+.product_price{
+    color: #ff2a53;
+    font-size: 1rem;
+
+}

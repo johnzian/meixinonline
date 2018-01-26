@@ -1,0 +1,51 @@
+/*脚步*/
+.footer{
+	width:100%;
+	height:391px;
+	margin-top:20px;
+}
+.footer_big{
+	padding-top:50px;
+	background-color: #e16300;
+}
+.footer_inside{
+	width:1200px;
+	margin:0 auto;
+	color:#fff;
+	height:345px;
+}
+.footer_inside ul li{
+	float:left;
+	border-left:1px solid #e6761f;
+	padding-left:30px;
+	margin-left:10px;
+}
+h2{	
+	font-size:16px;
+	line-height:40px;
+}
+.footer_inside ul li p a{
+	font-size:14px;
+	line-height:26px;
+	color:#fff;
+}
+
+.rexian{
+	float:left;
+	margin-left:150px;
+	width:220px;
+}
+.rexian p{
+	font-size:22px;
+}
+.erweima{
+	float:left;
+	position:relative;
+	top:5px;
+	left:5px;
+	text-align:center;
+}
+.erweima p{
+	font-size: 16px;
+	font-weight:bold;
+}

@@ -1,0 +1,71 @@
+.main{
+
+}
+/*Ðý×ªÍ¼*/
+.circle_box{
+    height: 700px;
+    border: 1px solid #666;
+}
+.circle_inside{
+    margin-top: 45px;
+}
+.circle_ul{
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+    transform: rotate(0deg);
+    transform-origin: center;
+    height: 600px;
+    transition: 3s;
+}
+.circle_ul>li{
+    transform-origin: 50% 150%;
+    position: absolute;
+    left: 26%;
+    transition: 0.5s;
+}
+.circle_ul>li>img{
+    width: 200px;
+}
+.circle_one{
+    transform: rotate(0deg);
+    opacity: 1;
+}
+.circle_two{
+    transform: rotate(36deg);
+    opacity: 0.1;
+}
+.circle_three{
+    transform: rotate(72deg);
+    opacity: 0.1;
+}
+.circle_four{
+    transform: rotate(108deg);
+    opacity: 0.1;
+}
+.circle_five{
+    transform: rotate(144deg);
+    opacity: 0.1;
+}
+.circle_six{
+    transform: rotate(180deg);
+    opacity: 0.1;
+}
+.circle_seven{
+    transform: rotate(216deg);
+    opacity: 0.1;
+}
+.circle_eight{
+    transform: rotate(252deg);
+    opacity: 0.1;
+}
+.circle_nine{
+    transform: rotate(288deg);
+    opacity: 0.1;
+}
+.circle_ten{
+    transform: rotate(324deg);
+    opacity: 0.1;
+}
+
+/*±³¾°À¸*/

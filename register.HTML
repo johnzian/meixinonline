@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>会员注册 - 美心西饼</title>
+		<link rel="stylesheet" href="css/register.css">
+		
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">
+				<a href="index.html">
+					<img src="img/201707181448325969790.jpg">
+				</a>
+			</div>
+			<div id="welcome">
+				欢迎注册
+			</div>
+			<div class="gologin">我已注册，现在就去<a href="login.html">登录</a></div>
+		</div>
+
+		<div class="registerForm">
+			<div class="form_inside">
+				<div class="place">
+					<span class="wenzi">手机号码</span>
+					<input type="text" id="phone" class="shuru">
+					<span></span>
+				</div>
+				<div class="place">
+					<span class="wenzi">密码</span>
+					<input type="password" id="pwd" class="shuru">
+					<span></span>
+				</div>
+				<div class="place">
+					<span class="wenzi">确认密码</span>
+					<input type="password" id="checkpwd" class="shuru">
+					<span></span>
+				</div>
+				<div class="place_sex">
+					<span class="wenzi">性别(选填) </span>
+					<input type="radio" name="gender" value="1" class="sex" checked>男
+					<input type="radio" name="gender" value="0" class="sex">女
+				</div>
+				<div class="place">
+					<span class="wenzi">出生年月(选填)</span>
+					<select class="birDate_year" id="year">
+						<!--<option value="">1</option>-->
+					</select>
+					<select class="birDate_month" id="month">
+
+					</select>
+				</div>
+				<div class="place">
+					<span class="wenzi">邮箱(选填)</span>
+					<input type="text" id="email" class="shuru">
+					<span></span>
+				</div>
+				<div class="place">
+					<span class="wenzi">验证码</span>
+					<input type="text" id="yanzhengma" class="shuru">
+					<span class="yanzhengtu"><span class="yanzheng"></span><a href="javascript:;" class="changeyz">换一次？</a></span>
+				</div>
+				<div class="place">
+					<div class="read"><input type="checkbox" class=""><span>我已阅读并同意 <a href="tiaokuan.html">用户注册协议</a></span></div>
+				</div>
+				<div class="place">
+					<div class="btn_place">
+						<input type="button" class="register_btn" value="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/ajax.js"></script>
+		<script src="js/register.js"></script>
+	</body>
+</html>

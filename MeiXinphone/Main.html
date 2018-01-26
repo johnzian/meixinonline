@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <title>美心西饼 -- 蛋糕名录</title>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="js/vue.js"></script>
+    <script src="js/vue-router.js"></script>
+    <script src="js/vue-resource.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/company.css"/>
+    <link rel="stylesheet" href="css/product_page.css"/>
+    <link rel="stylesheet" href="css/product_details.css"/>
+    <script src="js/lunbo.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/all_product.js"></script>
+    <script src="js/cake_list.js"></script>
+    <script src="js/desert_list.js"></script>
+    <script src="js/com_introduce.js"></script>
+    <script src="js/all_shop.js"></script>
+    <script src="js/product_details.js"></script>
+    <script src="js/router.js"></script>
+</head>
+<body>
+<div id="abc">
+    <router-view></router-view>
+</div>
+<script>
+
+    const myrouter=new VueRouter({
+        routes:myroutes
+    });
+    new Vue({
+        el: '#abc',
+        router:myrouter,
+        data: {
+        }
+    });
+</script>
+
+</body>
+</html>

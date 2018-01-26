@@ -1,0 +1,52 @@
+.product_details_left{
+    text-align: center;
+}
+.product_details_left>img{
+    width: 100%;
+}
+.product_details_right{
+    margin-top: 5%;
+}
+.title{
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+.subtitle{
+    font-size: 1rem;
+    margin-bottom: 10%;
+    color: #bfbfbf;
+}
+.mprice{
+    margin-bottom: 5%;
+}
+.mprice_inside{
+    text-decoration: line-through;
+}
+.nprice{
+    margin-bottom: 5%;
+}
+.nprice_inside{
+    font-size: 1.5rem;
+    color: #e16300;
+    font-weight: bold;
+}
+.pound{
+    margin-bottom: 5%;
+}
+.taste{
+    margin-bottom: 5%;
+}
+.details{
+    width: 100%;
+    text-align: center;
+}
+.details>img{
+    width: 100%;
+}
+.details_title{
+    text-align: center;
+    font-size: 1.2rem;
+}

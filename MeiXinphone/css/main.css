@@ -1,0 +1,100 @@
+.main{
+    display: flex;
+    margin: auto;
+}
+
+/*左侧导航*/
+.left-side{
+    border-right: 1px solid #ff2d2e;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    width: 25%;
+	position:relative;
+    transition: 2s;
+    left: 0;
+}
+.left-side-ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 24%;
+    overflow: hidden;
+    transition: 2s;
+
+}
+.left-side-li{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    color: #686868;
+    font-size: 1.2rem;
+    height: 55px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/*右侧内容*/
+.right-side{
+    padding: 0;
+    padding-left: 5px;
+    width: 75%;
+}
+/*右侧顶端*/
+.right-side-title{
+    display: flex;
+    width: 74%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    max-height: 20%;
+    position: fixed;
+    background: #fff;
+    z-index: 5;
+}
+.menu{
+    align-items: center;
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    font-size: xx-large;
+}
+.logo{
+    width: 40%;
+    align-items: center;
+    display: flex;
+}
+.logo>img{
+    width: 100%;
+    height: 100%;
+}
+.search_div{
+    display: flex;
+    width: 30%;
+}
+.search{
+    width: 60%;
+    font-size: 100%;
+}
+.search_btn{
+    width: 60%;
+    border: 2px solid #e16300;
+    background-color: #e16300;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.computer{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.computer>a{
+
+}
+/*右侧主要内容*/
+.right-side-main{
+    padding-top: 20%;
+}

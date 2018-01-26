@@ -1,0 +1,17 @@
+.company p{
+    font-size: 1rem;
+    margin-bottom: 5%;
+    line-height: 30px;
+}
+.company .bigtitle{
+    display: block;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.company .normaltitle{
+    display: block;
+    color: #e16300;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-weight: bold;
+}

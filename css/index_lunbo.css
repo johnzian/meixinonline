@@ -1,0 +1,30 @@
+        .changepic img {
+            height:420px;
+			width:1200px;
+        }
+		.changepic a{
+			display:block;
+			height:420px;
+			width:1200px;
+		}
+
+        .changepic {
+            width: 1200px;
+            float: left;
+            list-style: none;
+        }
+
+        .lunbo_inside {
+            padding: 0px;
+            margin: 0px;
+            position: relative;
+            left: 0px;
+        }
+
+        #lunbo {
+			height:415px;
+            width: 1200px;
+            overflow: hidden;
+            position: relative;
+/* 			margin-top:166px; */
+        }
